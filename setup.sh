@@ -30,8 +30,8 @@ sudo add-apt-repository ppa:yubico/stable
 
 sudo apt-get update
 
-echo 'Installing brave browser, yubico tools, vim, htop'
-sudo apt-get install yubioath-desktop yubikey-manager yubikey-personalization-gui brave-browser-beta brave-browser brave-browser-nightly vim htop -y
+echo 'Installing gparted, brave browser, yubico tools, vim, htop'
+sudo apt-get install gparted yubioath-desktop yubikey-manager yubikey-personalization-gui brave-browser-beta brave-browser brave-browser-nightly vim htop -y
 
 echo 'Installing gitkraken'
 sudo rm gitkraken-amd64.deb -f
